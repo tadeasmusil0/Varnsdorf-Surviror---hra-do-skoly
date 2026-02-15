@@ -27,9 +27,9 @@
 ## Nepřátelé
 | Typ | Popis | Chování |
 |-----|--------|---------|
-| Slabý zombie | základní nepřítel | jde přímo na hráče |
-| Rychlý netopýr | rychlý, málo HP | útočí ve skupinách |
-| Silný démon | pomalý, hodně HP | boss jednotka |
+| Slabý důchodce | základní nepřítel | jde přímo na hráče |
+| Rychlý obcan | rychlý, málo HP | útočí ve skupinách |
+| Silný securitak kaufu| pomalý, hodně HP | boss jednotka |
 
 ## Zbraně a schopnosti
 - **Základní koule** – letí směrem k nejbližšímu nepříteli.  
