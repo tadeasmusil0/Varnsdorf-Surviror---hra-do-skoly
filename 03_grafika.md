@@ -3,7 +3,7 @@
 ## Úvod
 Tento dokument představuje vizuální podobu postav a nepřátel pro hru **Varnsdorf survivor**. Grafika je stylizována do **pixel artu** s temnějším nádechem, který odpovídá noční atmosféře hry. 
 
-Při vytváření jsem použil Nano Banano Pro v Gemini s tím že jsem to přehodil na Pro mod aby to bylo co nejlepší
+Při vytváření jsem použil Nano Banano Pro v Gemini s tím že jsem to přehodil na Pro mod aby to bylo co nejlepší.
 
 Hlavním cílem vizuálu je snadná rozlišitelnost jednotlivých typů nepřátel (tzv. *readability*) i ve velkém počtu objektů na scéně.
 
@@ -59,3 +59,4 @@ Boss jednotka, která se objevuje po přežití určitého časového úseku (na
 
 
 ![Silný securiťák](Gemini_Generated_Image_40szf40szf40szf4.jpg)
+
