@@ -1,4 +1,4 @@
-# Mini Vampire Survivors (Godot projekt)
+# Varnsdorf survivor (Godot projekt)
 
 ## Popis projektu
 Tento projekt je jednoduchá akční hra inspirovaná titulem *Vampire Survivors*, vytvořená v herním enginu **Godot** jako školní projekt.  
