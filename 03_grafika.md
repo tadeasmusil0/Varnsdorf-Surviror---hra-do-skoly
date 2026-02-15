@@ -16,7 +16,7 @@ Hráč představuje obyčejného člověka, který se snaží přežít noc ve m
 - **Vybavení:** Tmavá mikina s kapucí, džíny, na zádech batoh (symbolizující inventář/sběr itemů).
 - **Postoj:** Připraven k úniku nebo boji.
 
-![Postava hráče](Gemini_Generated_Image_351iva351iva351i.jpg)
+![Postava hráče](Gemini_Generated_Image_351iva351iva351i.ppg)
 
 ---
 
@@ -30,7 +30,7 @@ Základní jednotka, která se spawnuje ve velkých počtech. Jednotlivě nepře
 - **Rozlišovací prvek:** Stará nákupní taška v ruce, šedivé prořídlé vlasy, sešlý béžový kabát.
 - **Pohyb:** Pomalý, šouravý.
 
-![Slabý důchodce](Gemini_Generated_Image_s8jb94s8jb94s8jb.jpg)
+![Slabý důchodce](Gemini_Generated_Image_s8jb94s8jb94s8jb.ppg)
 
 ---
 
@@ -42,7 +42,7 @@ Agresivní typ nepřítele. Má méně zdraví, ale pohybuje se výrazně rychle
 - **Rozlišovací prvek:** Výrazná červená šusťáková souprava s pruhy (styl 90. léta/sport), která v tmavé scéně "svítí".
 - **Pohyb:** Rychlý sprint, náklon dopředu.
 
-![Rychlý občan](Gemini_Generated_Image_768pvo768pvo768p.jpg)
+![Rychlý občan](Gemini_Generated_Image_768pvo768pvo768p.ppg)
 
 ---
 
@@ -55,4 +55,5 @@ Boss jednotka, která se objevuje po přežití určitého časového úseku (na
 - **Pohyb:** Pomalý, ale nezastavitelný a těžkopádný.
 - **Velikost:** Větší sprite než u ostatních postav.
 
-![Silný securiťák](Gemini_Generated_Image_40szf40szf40szf4.jpg)
+
+![Silný securiťák](Gemini_Generated_Image_40szf40szf40szf4.ppg)
