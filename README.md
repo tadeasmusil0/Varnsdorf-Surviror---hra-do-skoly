@@ -15,7 +15,8 @@ Cílem hráče je přežít co nejdéle proti neustále přibývajícím nepřá
 
 ## Struktura dokumentace
 - [`01_zakladni_koncepce.md`](01_zakladni_koncepce.md) – Základní myšlenka a koncept hry  
-- [`02_game_design.md`](02_game_design.md) – Herní design a mechaniky  
+- [`02_game_design.md`](02_game_design.md) – Herní design a mechaniky
+-  [`03_grafika.md`](03_grafika.md) – Grafika hry  
 
 ## Živý obsah
 - [Popis projektu](#-popis-projektu)
