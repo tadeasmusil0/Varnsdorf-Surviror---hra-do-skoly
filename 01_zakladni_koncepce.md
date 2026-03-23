@@ -17,7 +17,7 @@ Cílem je vytvořit jednoduchou, ale zábavnou hru ve stylu **Vampire Survivors*
 - zvyšování obtížnosti v čase.
   
 ## Inspirace
-Hra je inspirována titulem **Vampire Survivors** – minimalistickou survival hrou, kde hráč přežívá proti hordám nepřátel pomocí automatických útoků.
+Hra je inspirována titulem **Vampire Survivors** – minimalistickou survival hrou, kde hráč přežívá proti hordám nepřátel pomocí manualního utoku a pak automatických útoků.
 
 ## Hlavní principy hry
 - Postava se pohybuje pomocí kláves WASD.
