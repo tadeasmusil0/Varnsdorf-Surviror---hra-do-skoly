@@ -32,8 +32,7 @@
 | Silný securitak kaufu| pomalý, hodně HP | boss jednotka |
 
 ## Zbraně a schopnosti
-- **Základní koule** – letí směrem k nejbližšímu nepříteli.  
-- **Meč energie** – kolem hráče rotují energetické čepele.  
+- **Pěst** – hrač se braní holýma rukama   
 - **Vylepšení** – zvýšení rychlosti útoku, poškození, regenerace zdraví.
 
 ## Prostředí
