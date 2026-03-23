@@ -21,7 +21,7 @@
 |----------|-------|
 | Životy | 100 HP |
 | Pohybová rychlost | střední |
-| Útok | manuální clsoe utok |
+| Útok | manuální close utok |
 | Zkušenosti | získává zabíjením nepřátel |
 
 ## Nepřátelé
