@@ -32,3 +32,4 @@ Hra je inspirována titulem **Vampire Survivors** – minimalistickou survival h
 
 ## Použité nástroje
 - **Godot 4.5**
+- **Gemini Pro**
