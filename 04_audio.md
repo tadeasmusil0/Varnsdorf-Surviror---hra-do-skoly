@@ -8,10 +8,10 @@ Tento soubor obsahuje přehled zvukových aktiv a hudebního designu pro projekt
 
 | ID Zvuku | Popis | Kategorie | Stav |
 | :--- | :--- | :--- | :--- |
-| `sfx_amb_wind_panelak` | Vítr pískající mezi panelovými domy | Ambient | 🟢 Hotovo |
-| `sfx_ui_click_rust` | Rezavé kliknutí v menu | UI | 🟡 V přípravě |
-| `sfx_player_step_glass` | Krok na rozbité sklo | Gameplay | 🟢 Hotovo |
-| `sfx_enemy_zombie_lung` | Chrčení "místních" mutantů | NPC | 🔴 Chybí |
+| `sfx_amb_wind_panelak` | Vítr pískající mezi panelovými domy | Ambient |
+| `sfx_ui_click_rust` | Rezavé kliknutí v menu | UI |
+| `sfx_player_step_glass` | Krok na rozbité sklo | Gameplay |
+| `sfx_enemy_zombie_lung` | Chrčení "místních" mutantů | NPC |
 
 ---
 
