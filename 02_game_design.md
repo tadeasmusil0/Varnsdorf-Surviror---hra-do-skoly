@@ -37,7 +37,6 @@
 
 ## Prostředí
 - Jednoduchá 2D mapa s tmavším tónem, vhodná pro "noční" atmosféru.  
-- Náhodně se generují překážky (kameny, hroby, stromy).
 
 ## UI a HUD
 - Horní lišta: HP, XP, level.  
