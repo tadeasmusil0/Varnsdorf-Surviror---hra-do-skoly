@@ -17,7 +17,7 @@ Tento soubor obsahuje přehled zvukových aktiv a hudebního designu pro projekt
 
 ##  Technická specifikace pro implementaci
 
-Pro zajištění nejlepšího výkonu v herním enginu (Unity/Godot/Unreal) dodržujeme tyto standardy:
+Pro zajištění nejlepšího výkonu v herním enginu Godot dodržujeme tyto standardy:
 
 1. **Hudba (BGM):** Formát `.ogg`, Stereo, 44.1kHz (pro plynulé smyčkování).
 2. **Efekty (SFX):** Formát `.wav`, Mono, 48kHz (pro minimální latenci při akci).
