@@ -6,7 +6,7 @@ Tento soubor obsahuje přehled zvukových aktiv a hudebního designu pro projekt
 
 ##  Zvuková Mapa (SFX Asset List)
 
-| ID Zvuku | Popis | Kategorie |
+| ID Zvuku | Popis | Kategorie | Stav |
 | :--- | :--- | :--- | :--- |
 | `sfx_amb_wind_panelak` | Vítr pískající mezi panelovými domy | Ambient |
 | `sfx_ui_click_rust` | Rezavé kliknutí v menu | UI |
