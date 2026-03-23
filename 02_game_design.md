@@ -21,7 +21,7 @@
 |----------|-------|
 | Životy | 100 HP |
 | Pohybová rychlost | střední |
-| Útok | automatický projektil každých X sekund |
+| Útok | manuální clsoe utok |
 | Zkušenosti | získává zabíjením nepřátel |
 
 ## Nepřátelé
