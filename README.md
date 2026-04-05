@@ -12,7 +12,7 @@ Cílem hráče je přežít co nejdéle proti neustále přibývajícím nepřá
 - **Jazyk:** GDScript  
 - **Platforma:** PC  
 - **Grafika:** pixel art
-- **Tools:** Gemini Pro. Nano Banana Pro
+- **Tools:** Gemini Pro, Nano Banana Pro
 
 ## Struktura dokumentace
 - [`01_zakladni_koncepce.md`](01_zakladni_koncepce.md) – Základní myšlenka a koncept hry  
