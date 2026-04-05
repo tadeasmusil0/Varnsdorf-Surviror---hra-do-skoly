@@ -1,10 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://b0mhtahb0mpgn"]
+[gd_scene load_steps=4 format=3 uid="uid://b0mhtahb0mpgn"]
 
 [ext_resource type="Script" uid="uid://cpnp55k4a13rn" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://cuo25dranyt6n" path="res://map.gd" id="2_1bvp3"]
 [ext_resource type="PackedScene" uid="uid://cecf1bivixf5f" path="res://player.tscn" id="2_h2yge"]
 
 [node name="main" type="Node2D"]
 script = ExtResource("1_0xm2m")
+
+[node name="infinitimap" type="Node2D" parent="."]
+script = ExtResource("2_1bvp3")
 
 [node name="Player" parent="." instance=ExtResource("2_h2yge")]
 position = Vector2(164, 75)

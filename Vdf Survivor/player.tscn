@@ -1,20 +1,170 @@
-[gd_scene load_steps=4 format=3 uid="uid://cecf1bivixf5f"]
+[gd_scene load_steps=10 format=3 uid="uid://cecf1bivixf5f"]
 
 [ext_resource type="Script" uid="uid://cjg2t4ybjy7gw" path="res://player.gd" id="1_onrkg"]
 [ext_resource type="Texture2D" uid="uid://cydjcys0nu2v7" path="res://Gemini_Generated_Image_351iva351iva351i-removebg-preview.png" id="2_onrkg"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hqtel"]
-radius = 45.0
-height = 138.0
+radius = 22.0
+height = 56.0
 
-[node name="Player" type="CharacterBody2D" groups=["player_group"]]
-position = Vector2(518, 212)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_onrkg"]
+size = Vector2(57.75, 60.625)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_onrkg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i3pqv"]
+bg_color = Color(0.86343604, 5.318448e-06, 7.70092e-07, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hqtel"]
+bg_color = Color(0, 0.15658149, 0.99999934, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i3pqv"]
+size = Vector2(30, 53)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_i3pqv"]
+radius = 58.034473
+
+[node name="Player" type="CharacterBody2D" groups=["player_group", "xp_gems"]]
+position = Vector2(574, 309)
 script = ExtResource("1_onrkg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(0, 108)
+position = Vector2(1.5258789e-05, 25)
+scale = Vector2(0.26422763, 0.26422763)
 texture = ExtResource("2_onrkg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-6, 72)
+position = Vector2(-1, 22)
 shape = SubResource("CapsuleShape2D_hqtel")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(1, 15)
+
+[node name="AttackArea" type="Area2D" parent="."]
+position = Vector2(1, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea"]
+position = Vector2(-1, 23)
+shape = SubResource("RectangleShape2D_onrkg")
+disabled = true
+
+[node name="UI" type="CanvasLayer" parent="."]
+process_mode = 3
+
+[node name="HealthBar" type="ProgressBar" parent="UI"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -193.0
+offset_bottom = 27.0
+grow_horizontal = 0
+theme_override_styles/background = SubResource("StyleBoxFlat_onrkg")
+theme_override_styles/fill = SubResource("StyleBoxFlat_i3pqv")
+value = 100.0
+show_percentage = false
+
+[node name="XPBar" type="ProgressBar" parent="UI"]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -27.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/fill = SubResource("StyleBoxFlat_hqtel")
+show_percentage = false
+
+[node name="LevelLabel" type="Label" parent="UI"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "LEVEL: 1"
+
+[node name="PauseMenu" type="ColorRect" parent="UI"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.19434929, 0.19434926, 0.19434926, 1)
+
+[node name="PokracovatBtn" type="Button" parent="UI/PauseMenu"]
+layout_mode = 0
+offset_left = 539.0
+offset_top = 268.0
+offset_right = 612.0
+offset_bottom = 299.0
+text = "Hrát Dál"
+
+[node name="UkoncitBtn" type="Button" parent="UI/PauseMenu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -30.0
+offset_top = -15.5
+offset_right = 30.0
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Konec "
+
+[node name="GameOverMenu" type="ColorRect" parent="UI"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.19793725, 0.19793722, 0.19793722, 1)
+
+[node name="RestartBtn" type="Button" parent="UI/GameOverMenu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -47.5
+offset_top = -15.5
+offset_right = 47.5
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Hrát Znovu"
+
+[node name="UkoncitBtn" type="Button" parent="UI/GameOverMenu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -28.0
+offset_top = 29.0
+offset_right = 32.0
+offset_bottom = 60.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Konec "
+
+[node name="Hurtbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+position = Vector2(1, 23.5)
+shape = SubResource("RectangleShape2D_i3pqv")
+
+[node name="PickupArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PickupArea"]
+position = Vector2(3, 23)
+shape = SubResource("CircleShape2D_i3pqv")
+
+[connection signal="area_entered" from="PickupArea" to="." method="_on_pickup_area_area_entered"]

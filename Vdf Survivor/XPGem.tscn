@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://jks2c7c3csy4"]
+
+[ext_resource type="Script" uid="uid://ckirqkljxwyp7" path="res://XPGem.gd" id="1_w652n"]
+[ext_resource type="Texture2D" uid="uid://b6x1hne8ujts7" path="res://Gemini_Generated_Image_3obygd3obygd3oby-removebg-preview.png" id="2_fs0q7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lpgof"]
+radius = 15.132746
+
+[node name="XPGem" type="Area2D" groups=["xp_gems"]]
+position = Vector2(2, 1)
+script = ExtResource("1_w652n")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1.9073486e-06, 9.536743e-07)
+scale = Vector2(0.055955373, 0.05595536)
+texture = ExtResource("2_fs0q7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 1)
+shape = SubResource("CircleShape2D_lpgof")

@@ -1,11 +1,15 @@
 extends CharacterBody2D
+@export var gem_scene: PackedScene # Sem v editoru přetáhneme XPGem.tscn!
 
-var speed = 50.0 # Pomalý, šouravý pohyb
+var speed = 50.0
+var health = 20 # Základní životy důchodce
 var player = null
+var xp_reward = 5 # Kolik z něj padne
 
 func _ready():
 	# Najde hráče ve scéně
 	player = get_tree().get_first_node_in_group("player_group")
+
 
 func _physics_process(_delta):
 	if player:
@@ -14,7 +18,20 @@ func _physics_process(_delta):
 		velocity = direction * speed
 		move_and_slide()
 
-# Tuto funkci propoj s uzlem Hitbox (Area2D) přes signál "body_entered"
-func _on_hitbox_body_entered(body):
-	if body.name == "Player":
-		body.take_damage(10)
+func take_damage(amount):
+	health -= amount
+	if health <= 0:
+		# SPAWNOVÁNÍ XP GEMU PŘI SMRTI
+		if gem_scene:
+			var gem = gem_scene.instantiate()
+			gem.global_position = global_position
+			gem.xp_amount = xp_reward
+			# Přidáme gem do hlavní scény, aby nezmizel s nepřítelem
+			get_tree().current_scene.call_deferred("add_child", gem)
+		
+		queue_free()
+
+# Tato funkce se spustí, když Area2D hráče (pěst) narazí do důchodce
+func _on_hitbox_area_entered(area):
+	if area.name == "AttackArea":
+		take_damage(10) # Pěst dává 10 poškození
