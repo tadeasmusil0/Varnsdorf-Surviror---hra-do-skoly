@@ -39,9 +39,9 @@
 - Jednoduchá 2D mapa s tmavším tónem, vhodná pro "noční" atmosféru.  
 
 ## UI a HUD
-- Horní lišta: HP, XP, level.  
-- Dolní lišta: vybrané schopnosti.  
-- Pauza: Esc → menu s možností pokračovat / restartovat / ukončit.
+- Horní lišta: HP, level.  
+- Dolní lišta: XP.  
+- Pauza: Esc → menu s možností pokračovat / ukončit.
 
 ## Progres a obtížnost
 - Každou minutu se zvyšuje rychlost spawnování nepřátel.  
