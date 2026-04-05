@@ -11,7 +11,8 @@ Cílem hráče je přežít co nejdéle proti neustále přibývajícím nepřá
 - **Engine:** Godot 4.5  
 - **Jazyk:** GDScript  
 - **Platforma:** PC  
-- **Grafika:** pixel art 
+- **Grafika:** pixel art
+- **Tools:** Gemini Pro. Nano Banana Pro
 
 ## Struktura dokumentace
 - [`01_zakladni_koncepce.md`](01_zakladni_koncepce.md) – Základní myšlenka a koncept hry  
@@ -25,7 +26,6 @@ Cílem hráče je přežít co nejdéle proti neustále přibývajícím nepřá
 - [Technologie](#-technologie)
 - [Struktura dokumentace](#-struktura-dokumentace)
 - [Instalace a spuštění](#-instalace-a-spuštění)
-- [Licence](#-licence)
 
 ## Instalace a spuštění
 1. Stáhni nebo naklonuj SLOŽKU Vdf Survivor v reporezitáři.  
