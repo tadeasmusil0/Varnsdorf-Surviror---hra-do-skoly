@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cecf1bivixf5f"]
+
+[ext_resource type="Script" uid="uid://cjg2t4ybjy7gw" path="res://player.gd" id="1_onrkg"]
+[ext_resource type="Texture2D" uid="uid://cydjcys0nu2v7" path="res://Gemini_Generated_Image_351iva351iva351i-removebg-preview.png" id="2_onrkg"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hqtel"]
+radius = 45.0
+height = 138.0
+
+[node name="Player" type="CharacterBody2D" groups=["player_group"]]
+position = Vector2(518, 212)
+script = ExtResource("1_onrkg")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 108)
+texture = ExtResource("2_onrkg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-6, 72)
+shape = SubResource("CapsuleShape2D_hqtel")
