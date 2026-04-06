@@ -20,11 +20,9 @@ Cílem je vytvořit jednoduchou, ale zábavnou hru ve stylu **Vampire Survivors*
 Hra je inspirována titulem **Vampire Survivors** – minimalistickou survival hrou, kde hráč přežívá proti hordám nepřátel pomocí manualního utoku a pak automatických útoků.
 
 ## Hlavní principy hry
-- Postava se pohybuje pomocí kláves WASD.
-- Zbraně útočí automaticky v určitém intervalu.
+- Postava se pohybuje pomocí šipek.
 - Nepřátelé se postupně spawnují a útočí na hráče.
 - Po smrti nepřítele hráč získá zkušenosti.
-- Hráč může po dosažení určité úrovně zlepšit schopnosti.
 
 ## Cílová platforma a publikum
 - Platforma: PC  
@@ -33,3 +31,4 @@ Hra je inspirována titulem **Vampire Survivors** – minimalistickou survival h
 ## Použité nástroje
 - **Godot 4.5**
 - **Gemini Pro**
+- **Nano Banana Pro**
