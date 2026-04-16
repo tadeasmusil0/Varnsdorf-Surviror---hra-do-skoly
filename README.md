@@ -5,7 +5,7 @@ Tento projekt je jednoduchá akční hra inspirovaná titulem *Vampire Survivors
 Cílem hráče je přežít co nejdéle proti neustále přibývajícím nepřátelům a sbírat zkušenosti pro vylepšení schopností.
 
 ## Propagační web
-- [Otevřít webovou stránku projektu](Web_Varnsdorf/index.html)
+- [Otevřít webovou stránku projektu](Web_VarnsdorfSurvivor/index.html)
 
 ## Autor
 - **Tadeáš Musil**
