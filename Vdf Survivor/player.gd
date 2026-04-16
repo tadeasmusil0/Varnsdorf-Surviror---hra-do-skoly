@@ -33,10 +33,15 @@ func _physics_process(_delta):
 	if Input.is_action_just_pressed("ui_accept"):
 		attack()
 	
+	# 3. SPOLEHLIVÉ ODEBÍRÁNÍ HP PŘES HURTBOX
 	var bodies = $Hurtbox.get_overlapping_bodies()
 	for body in bodies:
 		if body.is_in_group("enemies"):
 			take_damage(0.5)
+			
+			# NOVÝ ŘÁDEK: Pokud má nepřítel funkci pro zvuk, spustíme ji
+			if body.has_method("play_attack_sound"):
+				body.play_attack_sound()
 
 # TATO FUNKCE SE SAMA PŘIDALA V KROKU 4
 func _on_pickup_area_area_entered(area):
@@ -72,6 +77,7 @@ func die():
 	game_over_menu.show()    # Ukáže obrazovku smrti 
 
 func attack():
+	$Attacksound.play() # Spustí zvuk rány hned při zmáčknutí
 	$AttackArea/CollisionShape2D.disabled = false
 	await get_tree().create_timer(0.2).timeout
 	$AttackArea/CollisionShape2D.disabled = true
