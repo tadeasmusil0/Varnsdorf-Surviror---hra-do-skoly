@@ -4,6 +4,9 @@
 Tento projekt je jednoduchá akční hra inspirovaná titulem *Vampire Survivors*, vytvořená v herním enginu **Godot** jako školní projekt.  
 Cílem hráče je přežít co nejdéle proti neustále přibývajícím nepřátelům a sbírat zkušenosti pro vylepšení schopností.
 
+## Propagační web
+- [Otevřít webovou stránku projektu](Web_Varnsdorf/index.html)
+
 ## Autor
 - **Tadeáš Musil**
 
