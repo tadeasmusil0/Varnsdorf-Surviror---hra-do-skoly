@@ -31,6 +31,6 @@ Cílem hráče je přežít co nejdéle proti neustále přibývajícím nepřá
 - [Instalace a spuštění](#-instalace-a-spuštění)
 
 ## Instalace a spuštění
-1. Stáhni nebo naklonuj SLOŽKU Vdf Survivor v reporezitáři.  
+1. Stáhni nebo naklonuj celý reporezitář.  
 2. Otevři projekt v **Godot Engine 4.5**.  
 3. Spusť hlavní scénu `menu.tscn`.
